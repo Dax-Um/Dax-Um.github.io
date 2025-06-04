@@ -1,0 +1,16 @@
+baseURL = "https://Dax-Um.github.io/"
+languageCode = "ko-kr"
+title = "Dax-Um의 성장 일기"
+theme = "PaperMod"
+
+[params]
+  author = "Dax-Um"
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
+  defaultTheme = "auto"
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+    style = "monokai"

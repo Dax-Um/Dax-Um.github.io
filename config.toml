@@ -14,3 +14,38 @@ theme = "PaperMod"
   [markup.highlight]
     noClasses = false
     style = "monokai"
+
+[[menu.main]]
+  name = "About Me"
+  url = "/about"
+  weight = 1
+
+[[menu.main]]
+  name = "Android"
+  url = "/categories/android"
+  weight = 2
+
+[[menu.main]]
+  name = "Jetpack Compose"
+  url = "/categories/jetpack-compose"
+  weight = 3
+
+[[menu.main]]
+  name = "Kotlin"
+  url = "/categories/kotlin"
+  weight = 4
+
+[[menu.main]]
+  name = "Java"
+  url = "/categories/java"
+  weight = 5
+
+[[menu.main]]
+  name = "TDD"
+  url = "/categories/tdd"
+  weight = 6
+
+[[menu.main]]
+  name = "Architecture"
+  url = "/categories/architecture"
+  weight = 7

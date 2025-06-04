@@ -1,6 +1,9 @@
 ---
 title: "About Me"
 url: "/about"
+type: "about"
+layout: "single"
+draft: false
 ---
 
 ## 👋 안녕하세요

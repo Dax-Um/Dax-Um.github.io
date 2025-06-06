@@ -6,10 +6,10 @@ layout: "single"
 draft: false
 ---
 
-## 👋 About Me
+## 🪪 About Me
 
 <h2 style="font-size: 26px; font-weight: 700; margin-top: 0;">
-“사용자 입장에서 더 나은 경험을 고민하며, 기술로 풀어내는 Android 개발자 <span style='color:#0c66ff'>엄준석</span>입니다.”
+“사용자의 더 나은 경험을 고민하며, 기술로 풀어내는 Android 개발자 <span style='color:#3b82f6'>엄준석</span>입니다.”
 </h2>
 
 <p><strong>Android 개발자 | Compose · Hilt · Multi-Module 차량 앱 및 AI 사이드 프로젝트 경험</strong></p>

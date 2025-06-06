@@ -51,4 +51,4 @@ theme = "PaperMod"
   weight = 7
 
 [params.assets]
-customCSS = ["themes/PaperMod/assets/css/extended/custom.css"]
+customCSS = ["css/extended/custom.css"]

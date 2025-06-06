@@ -6,9 +6,7 @@ layout: "single"
 draft: false
 ---
 
-## 👋 About Me
-
-**“안녕하세요, 언제나 사용자 입장에서 더 나은 경험을 고민하며 기술로 풀어내는 Android 개발자 엄준석입니다.”**
+## 👋 “안녕하세요, 언제나 사용자 입장에서 더 나은 경험을 고민하며 기술로 풀어내는 Android 개발자 엄준석입니다.”
 
 **Android 개발자 | Compose · Hilt · Multi-Module 차량 앱 및 AI 사이드 프로젝트 경험**
 

@@ -16,7 +16,7 @@ theme = "PaperMod"
     style = "monokai"
 
 [[menu.main]]
-  name = "About Me"
+  name = "Resume"
   url = "/about"
   weight = 1
 

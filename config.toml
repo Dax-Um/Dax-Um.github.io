@@ -49,3 +49,6 @@ theme = "PaperMod"
   name = "Architecture"
   url = "/categories/architecture"
   weight = 7
+
+[params.assets]
+customCSS = ["themes/PaperMod/assets/css/extended/custom.css"]

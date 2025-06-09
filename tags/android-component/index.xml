@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Android Component on Dax의 조용한 개발 서랍</title><link>https://Dax-Um.github.io/tags/android-component/</link><description>Recent content in Android Component on Dax의 조용한 개발 서랍</description><generator>Hugo -- 0.147.7</generator><language>ko-kr</language><lastBuildDate>Mon, 09 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://Dax-Um.github.io/tags/android-component/index.xml" rel="self" type="application/rss+xml"/><item><title>Activity</title><link>https://Dax-Um.github.io/posts/activity/</link><pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate><guid>https://Dax-Um.github.io/posts/activity/</guid><description>&lt;h1 id="-android-activity-완벽-가이드-2025년-기준">🖥️ Android Activity 완벽 가이드 (2025년 기준)&lt;/h1>
+&lt;p>Android 앱의 핵심 구성 요소인 &lt;strong>Activity&lt;/strong>는 사용자와 직접 상호작용하는 단일 UI 화면을 나타냅니다. Activity는 앱이 사용자에게 보여주는 &lt;strong>각각의 화면&lt;/strong>을 담당하며, 생명주기를 통해 시스템 이벤트에 반응하고 사용자 경험을 관리합니다.&lt;/p>
+&lt;hr>
+&lt;h2 id="-activity란">📌 Activity란?&lt;/h2>
+&lt;ul>
+&lt;li>앱의 &lt;strong>UI 단위 구성 요소&lt;/strong>이며, 사용자에게 제공되는 하나의 화면을 의미합니다.&lt;/li>
+&lt;li>앱 내의 여러 Activity는 사용자 흐름에 따라 서로 전환되며, 각각의 Activity는 독립된 생명주기를 가집니다.&lt;/li>
+&lt;li>일반적으로 &lt;code>MainActivity&lt;/code>가 진입점이 되며, 이후 필요한 Activity를 &lt;code>Intent&lt;/code>를 통해 실행합니다.&lt;/li>
+&lt;/ul>
+&lt;h3 id="대표적인-activity-예시">대표적인 Activity 예시&lt;/h3>
+&lt;ul>
+&lt;li>로그인 화면 (&lt;code>LoginActivity&lt;/code>)&lt;/li>
+&lt;li>홈 화면 (&lt;code>HomeActivity&lt;/code>)&lt;/li>
+&lt;li>상세 정보 화면 (&lt;code>DetailActivity&lt;/code>)&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="-생명주기-구조">🧬 생명주기 구조&lt;/h2>
+&lt;blockquote>
+&lt;p>📌 &lt;strong>실무에서는?&lt;/strong> Jetpack 아키텍처 컴포넌트를 활용해 생명주기 콜백을 직접 사용하는 비중은 줄고, 대부분 &lt;code>repeatOnLifecycle&lt;/code>, &lt;code>ViewModel&lt;/code>, &lt;code>LifecycleObserver&lt;/code>를 사용해 간접적으로 관리합니다. 하지만 생명주기 구조를 이해하는 것은 여전히 중요하며, 정확한 리소스 해제, 센서 관리, 화면 상태 복원 등에 필수적입니다.&lt;/p></description></item><item><title>Android Component</title><link>https://Dax-Um.github.io/posts/android-component/</link><pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate><guid>https://Dax-Um.github.io/posts/android-component/</guid><description>&lt;h1 id="-android-구성-요소-개요-2025년-기준">📦 Android 구성 요소 개요 (2025년 기준)&lt;/h1>
+&lt;p>Android 앱은 시스템과 상호작용하기 위한 네 가지 주요 컴포넌트로 구성됩니다. 각각의 컴포넌트는 앱이 사용자와 상호작용하거나, 백그라운드에서 작업을 수행하거나, 다른 앱과 데이터를 공유하거나, 시스템 이벤트를 수신할 수 있도록 합니다.
+이러한 컴포넌트는 앱의 진입점(entry point) 역할을 하며, 반드시 &lt;code>AndroidManifest.xml&lt;/code>에 등록되어야 시스템이 인식하고 실행할 수 있습니다.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Activity&lt;/strong>: 사용자 인터페이스(UI)를 구성하고 입력을 처리&lt;/li>
+&lt;li>&lt;strong>Service&lt;/strong>: 백그라운드에서 UI 없이 장시간 작업 처리&lt;/li>
+&lt;li>&lt;strong>BroadcastReceiver&lt;/strong>: 시스템 또는 앱의 이벤트를 수신&lt;/li>
+&lt;li>&lt;strong>ContentProvider&lt;/strong>: 앱 간 데이터를 안전하게 공유&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="-1-activity">🖥️ 1. Activity&lt;/h2>
+&lt;h3 id="-정의">✅ 정의&lt;/h3>
+&lt;p>Activity는 사용자와 직접 상호작용하는 단일 UI 화면입니다. 사용자의 행동에 따라 앱의 상태를 전환하며, 생명주기(Lifecycle)를 통해 시스템 이벤트에 반응합니다.&lt;/p></description></item></channel></rss>

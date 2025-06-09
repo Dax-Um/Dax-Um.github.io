@@ -1,23 +1,95 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Dax-Um의 성장 일기</title>
+    <title>Dax의 조용한 개발 서랍</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on Dax-Um의 성장 일기</description>
+    <description>Recent content on Dax의 조용한 개발 서랍</description>
     <generator>Hugo -- 0.147.7</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Wed, 04 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hello Kotlin</title>
-      <link>http://localhost:1313/posts/hello-kotlin/</link>
+      <title>Activity</title>
+      <link>http://localhost:1313/posts/activity/</link>
+      <pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/activity/</guid>
+      <description>&lt;h1 id=&#34;-android-activity-완벽-가이드-2025년-기준&#34;&gt;🖥️ Android Activity 완벽 가이드 (2025년 기준)&lt;/h1&gt;
+&lt;p&gt;Android 앱의 핵심 구성 요소인 &lt;strong&gt;Activity&lt;/strong&gt;는 사용자와 직접 상호작용하는 단일 UI 화면을 나타냅니다. Activity는 앱이 사용자에게 보여주는 &lt;strong&gt;각각의 화면&lt;/strong&gt;을 담당하며, 생명주기를 통해 시스템 이벤트에 반응하고 사용자 경험을 관리합니다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-activity란&#34;&gt;📌 Activity란?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;앱의 &lt;strong&gt;UI 단위 구성 요소&lt;/strong&gt;이며, 사용자에게 제공되는 하나의 화면을 의미합니다.&lt;/li&gt;
+&lt;li&gt;앱 내의 여러 Activity는 사용자 흐름에 따라 서로 전환되며, 각각의 Activity는 독립된 생명주기를 가집니다.&lt;/li&gt;
+&lt;li&gt;일반적으로 &lt;code&gt;MainActivity&lt;/code&gt;가 진입점이 되며, 이후 필요한 Activity를 &lt;code&gt;Intent&lt;/code&gt;를 통해 실행합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;대표적인-activity-예시&#34;&gt;대표적인 Activity 예시&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;로그인 화면 (&lt;code&gt;LoginActivity&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;홈 화면 (&lt;code&gt;HomeActivity&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;상세 정보 화면 (&lt;code&gt;DetailActivity&lt;/code&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-생명주기-구조&#34;&gt;🧬 생명주기 구조&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;📌 &lt;strong&gt;실무에서는?&lt;/strong&gt; Jetpack 아키텍처 컴포넌트를 활용해 생명주기 콜백을 직접 사용하는 비중은 줄고, 대부분 &lt;code&gt;repeatOnLifecycle&lt;/code&gt;, &lt;code&gt;ViewModel&lt;/code&gt;, &lt;code&gt;LifecycleObserver&lt;/code&gt;를 사용해 간접적으로 관리합니다. 하지만 생명주기 구조를 이해하는 것은 여전히 중요하며, 정확한 리소스 해제, 센서 관리, 화면 상태 복원 등에 필수적입니다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Android Component</title>
+      <link>http://localhost:1313/posts/android-component/</link>
+      <pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/android-component/</guid>
+      <description>&lt;h1 id=&#34;-android-구성-요소-개요-2025년-기준&#34;&gt;📦 Android 구성 요소 개요 (2025년 기준)&lt;/h1&gt;
+&lt;p&gt;Android 앱은 시스템과 상호작용하기 위한 네 가지 주요 컴포넌트로 구성됩니다. 각각의 컴포넌트는 앱이 사용자와 상호작용하거나, 백그라운드에서 작업을 수행하거나, 다른 앱과 데이터를 공유하거나, 시스템 이벤트를 수신할 수 있도록 합니다.
+이러한 컴포넌트는 앱의 진입점(entry point) 역할을 하며, 반드시 &lt;code&gt;AndroidManifest.xml&lt;/code&gt;에 등록되어야 시스템이 인식하고 실행할 수 있습니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Activity&lt;/strong&gt;: 사용자 인터페이스(UI)를 구성하고 입력을 처리&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Service&lt;/strong&gt;: 백그라운드에서 UI 없이 장시간 작업 처리&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;BroadcastReceiver&lt;/strong&gt;: 시스템 또는 앱의 이벤트를 수신&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ContentProvider&lt;/strong&gt;: 앱 간 데이터를 안전하게 공유&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-1-activity&#34;&gt;🖥️ 1. Activity&lt;/h2&gt;
+&lt;h3 id=&#34;-정의&#34;&gt;✅ 정의&lt;/h3&gt;
+&lt;p&gt;Activity는 사용자와 직접 상호작용하는 단일 UI 화면입니다. 사용자의 행동에 따라 앱의 상태를 전환하며, 생명주기(Lifecycle)를 통해 시스템 이벤트에 반응합니다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>테스트용 카테고리 - Kotlin</title>
+      <link>http://localhost:1313/posts/test-kotlin/</link>
       <pubDate>Wed, 04 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/hello-kotlin/</guid>
-      <description>&lt;p&gt;안녕하세요! Kotlin 블로그에 오신 것을 환영합니다.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-kotlin&#34; data-lang=&#34;kotlin&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;fun&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Hello, Kotlin!&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+      <guid>http://localhost:1313/posts/test-kotlin/</guid>
+      <description>&lt;p&gt;테스트 글입니다. Kotlin 카테고리에 속해 있습니다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Resume</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h2 style=&#34;font-size: 26px; font-weight: 700; margin-top: 0;&#34;&gt;
+“사용자의 더 나은 경험을 고민하며, 기술로 풀어내는 Android 개발자 &lt;span style=&#39;color:#3b82f6&#39;&gt;엄준석&lt;/span&gt;입니다.”
+&lt;/h2&gt;
+&lt;table style=&#34;width: 100%;&#34;&gt;
+  &lt;tr&gt;
+    &lt;td style=&#34;vertical-align: top; padding-right: 45px;&#34;&gt;
+      &lt;img src=&#34;http://localhost:1313/profile_35x45.jpg&#34; alt=&#34;Profile Photo&#34; width=&#34;140&#34; height=&#34;180&#34; style=&#34;border-radius: 8px;&#34; /&gt;
+    &lt;/td&gt;
+    &lt;td style=&#34;vertical-align: top; padding-top: 20px;&#34;&gt;
+      &lt;strong&gt;Contact.&lt;/strong&gt;&lt;br&gt;
+      Email. ukerrym@gmail.com&lt;br&gt;
+      Phone. 010-9861-0905&lt;br&gt;&lt;br&gt;
+      &lt;strong&gt;Channel.&lt;/strong&gt;&lt;br&gt;
+      Blog. &lt;a href=&#34;https://dax-um.github.io&#34;&gt;https://dax-um.github.io&lt;/a&gt;&lt;br&gt;
+      GitHub. &lt;a href=&#34;https://github.com/Dax-Um&#34;&gt;https://github.com/Dax-Um&lt;/a&gt;&lt;br&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Android 개발자 | Compose · Coroutine · Hilt · Multi-Module 차량 앱 및 AI 사이드 프로젝트 경험&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
+Multi-Module 구조의 차량용 Android 앱 개발에 참여해 실제 양산 적용을 경험했으며,&lt;br&gt;
+Google Android Auto 인증을 위한 In-Vehicle 실차 테스트를 수행하며 실환경 연결성과 UX를 검증했습니다.&lt;br&gt;
+감정 다이어리 분석과 AI 페르소나 대화를 제공하는 심리 케어 앱을 사이드 프로젝트로 개발하고 있습니다.&lt;br&gt;
+기술의 완성도를 추구하되, 그것이 사용자 문제 해결로 이어져야 의미 있다고 믿습니다.&lt;br&gt;
+&lt;strong&gt;‘잘 만든 기능’보다 ‘쓰이는 기능’을 만들기 위해, 늘 사용자 관점에서 기능의 본질을 고민합니다.&lt;/strong&gt;
+&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,14 +1,18 @@
 baseURL = "https://Dax-Um.github.io/"
 languageCode = "ko-kr"
-title = "Dax-Um의 성장 일기"
+title = "Dax의 조용한 개발 서랍"
 theme = "PaperMod"
 
 [params]
-  author = "Dax-Um"
+  description = "소란스럽지 않게, 차곡차곡 쌓아가는 개발 기록들."
+  ShowPostCards = true 
+  ShowPageThumbnail = true
   ShowReadingTime = true
   ShowPostNavLinks = true
   ShowCodeCopyButtons = true
   defaultTheme = "auto"
+  [params.homeInfoParams]
+    content = "소란스럽지 않게, 차곡차곡 쌓아가는 개발 기록들."
 
 [markup]
   [markup.highlight]

@@ -6,12 +6,12 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Dax-Um의 성장 일기</title>
+<title>Dax의 조용한 개발 서랍</title>
 
-<meta name="description" content="">
-<meta name="author" content="Dax-Um">
+<meta name="description" content="소란스럽지 않게, 차곡차곡 쌓아가는 개발 기록들.">
+<meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.36819bea596090d8b48cf10d9831382996197aa7e4fc86f792f7c08c9ca4d23b.css" integrity="sha256-NoGb6llgkNi0jPENmDE4KZYZeqfk/Ib3kvfAjJyk0js=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.a564ba41f7c69868f742e99ac9542b63d93430de43a4cd49b09d8baa82cdaefd.css" integrity="sha256-pWS6QffGmGj3QumayVQrY9k0MN5DpM1JsJ2LqoLNrv0=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -75,7 +75,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="Dax-Um의 성장 일기 (Alt + H)">Dax-Um의 성장 일기</a>
+            <a href="http://localhost:1313/" accesskey="h" title="Dax의 조용한 개발 서랍 (Alt + H)">Dax의 조용한 개발 서랍</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -100,27 +100,135 @@
             </div>
         </div>
         <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/about" title="Resume">
+                    <span>Resume</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/android" title="Android">
+                    <span>Android</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/jetpack-compose" title="Jetpack Compose">
+                    <span>Jetpack Compose</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/kotlin" title="Kotlin">
+                    <span>Kotlin</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/java" title="Java">
+                    <span>Java</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/tdd" title="TDD">
+                    <span>TDD</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/architecture" title="Architecture">
+                    <span>Architecture</span>
+                </a>
+            </li>
         </ul>
     </nav>
 </header>
 <main class="main"> 
+<article class="first-entry home-info">
+    <header class="entry-header">
+        <h1></h1>
+    </header>
+    <div class="entry-content">
+        소란스럽지 않게, 차곡차곡 쌓아가는 개발 기록들.
+    </div>
+    <footer class="entry-footer">
+        <div class="social-icons" >
+</div>
 
-<article class="first-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Hello Kotlin
-    </h2>
-  </header>
+    </footer>
+</article>
+
+<article class="post-entry post-entry-with-thumbnail">
+  
+  
+  
+    <div class="post-thumbnail-wrapper">
+      <img class="post-thumbnail" src="/images/android.png" alt="Android icon">
+    </div>
+  
+
+  
+  <div class="post-meta-wrapper">
+    <header class="entry-header">
+      <h2 class="entry-hint-parent">
+        Activity
+        
+      </h2>
+    </header>
   <div class="entry-content">
-    <p>안녕하세요! Kotlin 블로그에 오신 것을 환영합니다.
-fun main() { println(&#34;Hello, Kotlin!&#34;) } </p>
+    <p>🖥️ Android Activity 완벽 가이드 (2025년 기준) Android 앱의 핵심 구성 요소인 Activity는 사용자와 직접 상호작용하는 단일 UI 화면을 나타냅니다. Activity는 앱이 사용자에게 보여주는 각각의 화면을 담당하며, 생명주기를 통해 시스템 이벤트에 반응하고 사용자 경험을 관리합니다.
+📌 Activity란? 앱의 UI 단위 구성 요소이며, 사용자에게 제공되는 하나의 화면을 의미합니다. 앱 내의 여러 Activity는 사용자 흐름에 따라 서로 전환되며, 각각의 Activity는 독립된 생명주기를 가집니다. 일반적으로 MainActivity가 진입점이 되며, 이후 필요한 Activity를 Intent를 통해 실행합니다. 대표적인 Activity 예시 로그인 화면 (LoginActivity) 홈 화면 (HomeActivity) 상세 정보 화면 (DetailActivity) 🧬 생명주기 구조 📌 실무에서는? Jetpack 아키텍처 컴포넌트를 활용해 생명주기 콜백을 직접 사용하는 비중은 줄고, 대부분 repeatOnLifecycle, ViewModel, LifecycleObserver를 사용해 간접적으로 관리합니다. 하지만 생명주기 구조를 이해하는 것은 여전히 중요하며, 정확한 리소스 해제, 센서 관리, 화면 상태 복원 등에 필수적입니다.
+...</p>
   </div>
-  <footer class="entry-footer"><span title='2025-06-04 00:00:00 +0000 UTC'>June 4, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Dax-Um</footer>
-  <a class="entry-link" aria-label="post link to Hello Kotlin" href="http://localhost:1313/posts/hello-kotlin/"></a>
+  <footer class="entry-footer"><span title='2025-06-09 00:00:00 +0000 UTC'>June 9, 2025</span>&nbsp;·&nbsp;6 min</footer>
+  <a class="entry-link" aria-label="post link to Activity" href="http://localhost:1313/posts/activity/"></a>
+</article>
+
+<article class="post-entry post-entry-with-thumbnail">
+  
+  
+  
+    <div class="post-thumbnail-wrapper">
+      <img class="post-thumbnail" src="/images/android.png" alt="Android icon">
+    </div>
+  
+
+  
+  <div class="post-meta-wrapper">
+    <header class="entry-header">
+      <h2 class="entry-hint-parent">
+        Android Component
+        
+      </h2>
+    </header>
+  <div class="entry-content">
+    <p>📦 Android 구성 요소 개요 (2025년 기준) Android 앱은 시스템과 상호작용하기 위한 네 가지 주요 컴포넌트로 구성됩니다. 각각의 컴포넌트는 앱이 사용자와 상호작용하거나, 백그라운드에서 작업을 수행하거나, 다른 앱과 데이터를 공유하거나, 시스템 이벤트를 수신할 수 있도록 합니다. 이러한 컴포넌트는 앱의 진입점(entry point) 역할을 하며, 반드시 AndroidManifest.xml에 등록되어야 시스템이 인식하고 실행할 수 있습니다.
+Activity: 사용자 인터페이스(UI)를 구성하고 입력을 처리 Service: 백그라운드에서 UI 없이 장시간 작업 처리 BroadcastReceiver: 시스템 또는 앱의 이벤트를 수신 ContentProvider: 앱 간 데이터를 안전하게 공유 🖥️ 1. Activity ✅ 정의 Activity는 사용자와 직접 상호작용하는 단일 UI 화면입니다. 사용자의 행동에 따라 앱의 상태를 전환하며, 생명주기(Lifecycle)를 통해 시스템 이벤트에 반응합니다.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-06-09 00:00:00 +0000 UTC'>June 9, 2025</span>&nbsp;·&nbsp;2 min</footer>
+  <a class="entry-link" aria-label="post link to Android Component" href="http://localhost:1313/posts/android-component/"></a>
+</article>
+
+<article class="post-entry post-entry-with-thumbnail">
+  
+  
+  
+
+  
+  <div class="post-meta-wrapper">
+    <header class="entry-header">
+      <h2 class="entry-hint-parent">
+        테스트용 카테고리 - Kotlin
+        
+      </h2>
+    </header>
+  <div class="entry-content">
+    <p>테스트 글입니다. Kotlin 카테고리에 속해 있습니다.
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-06-04 00:00:00 +0000 UTC'>June 4, 2025</span>&nbsp;·&nbsp;1 min</footer>
+  <a class="entry-link" aria-label="post link to 테스트용 카테고리 - Kotlin" href="http://localhost:1313/posts/test-kotlin/"></a>
 </article>
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/">Dax-Um의 성장 일기</a></span> · 
+        <span>&copy; 2025 <a href="http://localhost:1313/">Dax의 조용한 개발 서랍</a></span> · 
 
     <span>
         Powered by

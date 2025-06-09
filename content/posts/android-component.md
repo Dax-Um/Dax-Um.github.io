@@ -3,6 +3,9 @@ title: "Android Component"
 date: 2025-06-09
 draft: false
 categories: ["android"]
+tags: ["android component"]
+thumbnail: "/images/android.png"
+thumbnail_alt: "Android icon"  
 ---
 
 # 📦 Android 구성 요소 개요 (2025년 기준)

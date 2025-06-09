@@ -1,0 +1,15 @@
+# Hugo build output
+public/
+resources/
+
+# OS 관련 파일
+.DS_Store
+Thumbs.db
+
+# IDE 및 에디터 관련
+.vscode/
+.idea/
+
+# 기타 로그/백업 파일
+*.log
+*.bak

@@ -1,3 +1,59 @@
 .main {
     max-width: 1000px;  
   }
+
+.main table,
+.main table td,
+.main table th,
+.main table p {
+  border: none !important;
+  border-bottom: none !important;
+  border-top: none !important;
+  box-shadow: none !important;
+}
+
+hr.custom-hr {
+  width: 100%;
+  border: none;
+  border-top: 1px solid #ccc; 
+  margin-top: 1.5rem;
+}
+
+.post-entry-with-thumbnail {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.post-thumbnail-wrapper {
+  flex-shrink: 0;
+}
+
+.post-thumbnail {
+  width: 200px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.post-meta-wrapper {
+  flex: 1;
+}
+
+.home-info {
+  padding: 0rem;  
+  margin-top: 0rem;     
+  margin-bottom: 3rem;   
+  min-height: auto;
+}
+
+.home-info .entry-header h1 {
+  font-size: 1.2rem;
+  margin: 0; 
+}
+
+.home-info .entry-content p {
+  font-size: 0.95rem;     
+  color: var(--secondary);
+}

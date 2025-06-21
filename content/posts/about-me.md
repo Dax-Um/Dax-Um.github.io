@@ -11,9 +11,9 @@ draft: false
 </h2>
 
 <table style="width: 100%;">
-  <tr>
-    <td style="vertical-align: top; padding-right: 45px;">
-      <img src="/profile_35x45.jpg" alt="Profile Photo" width="140" height="180" style="border-radius: 8px;" />
+  <tr class="resume-profile-content">
+    <td style="vertical-align: top; padding-right: 45px;" class="resume-profile-image-container">
+      <img src="/profile_35x45.jpg" alt="Profile Photo" width="140" height="180" style="border-radius: 8px;" class="resume-profile-image" />
     </td>
     <td style="vertical-align: top; padding-top: 20px;">
       <strong>Contact.</strong><br>

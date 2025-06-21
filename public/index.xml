@@ -68,9 +68,9 @@
 “사용자의 더 나은 경험을 고민하며, 기술로 풀어내는 Android 개발자 &lt;span style=&#39;color:#3b82f6&#39;&gt;엄준석&lt;/span&gt;입니다.”
 &lt;/h2&gt;
 &lt;table style=&#34;width: 100%;&#34;&gt;
-  &lt;tr&gt;
-    &lt;td style=&#34;vertical-align: top; padding-right: 45px;&#34;&gt;
-      &lt;img src=&#34;http://localhost:1313/profile_35x45.jpg&#34; alt=&#34;Profile Photo&#34; width=&#34;140&#34; height=&#34;180&#34; style=&#34;border-radius: 8px;&#34; /&gt;
+  &lt;tr class=&#34;resume-profile-content&#34;&gt;
+    &lt;td style=&#34;vertical-align: top; padding-right: 45px;&#34; class=&#34;resume-profile-image-container&#34;&gt;
+      &lt;img src=&#34;http://localhost:1313/profile_35x45.jpg&#34; alt=&#34;Profile Photo&#34; width=&#34;140&#34; height=&#34;180&#34; style=&#34;border-radius: 8px;&#34; class=&#34;resume-profile-image&#34; /&gt;
     &lt;/td&gt;
     &lt;td style=&#34;vertical-align: top; padding-top: 20px;&#34;&gt;
       &lt;strong&gt;Contact.&lt;/strong&gt;&lt;br&gt;

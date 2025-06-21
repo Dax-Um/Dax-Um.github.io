@@ -32,9 +32,9 @@
 “사용자의 더 나은 경험을 고민하며, 기술로 풀어내는 Android 개발자 &lt;span style='color:#3b82f6'>엄준석&lt;/span>입니다.”
 &lt;/h2>
 &lt;table style="width: 100%;">
-&lt;tr>
-&lt;td style="vertical-align: top; padding-right: 45px;">
-&lt;img src="https://Dax-Um.github.io/profile_35x45.jpg" alt="Profile Photo" width="140" height="180" style="border-radius: 8px;" />
+&lt;tr class="resume-profile-content">
+&lt;td style="vertical-align: top; padding-right: 45px;" class="resume-profile-image-container">
+&lt;img src="https://Dax-Um.github.io/profile_35x45.jpg" alt="Profile Photo" width="140" height="180" style="border-radius: 8px;" class="resume-profile-image" />
 &lt;/td>
 &lt;td style="vertical-align: top; padding-top: 20px;">
 &lt;strong>Contact.&lt;/strong>&lt;br>

@@ -1,13 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Dax의 조용한 개발 서랍</title>
+    <title>Posts on Dax의 개발 서랍</title>
     <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on Dax의 조용한 개발 서랍</description>
+    <description>Recent content in Posts on Dax의 개발 서랍</description>
     <generator>Hugo -- 0.147.7</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Mon, 09 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 27 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IntelliJ 알고리즘 문제 풀이 환경 세팅</title>
+      <link>http://localhost:1313/posts/autocp_setting/</link>
+      <pubDate>Sun, 27 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/autocp_setting/</guid>
+      <description>&lt;p&gt;알고리즘 문제 풀이를 할 때 해당 사이트에서 테스트 케이스 결과를 확인하기에는 불편한 부분이 있다.
+이런 문제를 해결할 수 있는 방법으로 Jetbrain사의 IDE에서 사용할 수 있는 플러그인으로 Auto CP가 있다.
+Auto CP는 백준(BOJ), Codeforces, AtCoder 등 경쟁 프로그래밍 문제를 더 빠르고 효율적으로 풀 수 있게 도와주는 플러그인이다.&lt;/p&gt;
+&lt;img src=&#34;http://localhost:1313/images/autocp/autocp.png&#34; alt=&#34;auto cp&#34; width=&#34;250&#34; /&gt;
+&lt;a href=&#34;https://pushpavel.github.io/AutoCp/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
+  [AutoCP 바로 가기] 
+&lt;/a&gt;
+&lt;p&gt;현재 Java로 문제풀이를 하는 관계로 IntelliJ에서 세팅하는 법을 기록한다.
+IntelliJ 설치 및 환경 설정은 되어 있다는 전제로 시작한다.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Activity</title>
       <link>http://localhost:1313/posts/activity/</link>
@@ -58,38 +73,6 @@
       <pubDate>Wed, 04 Jun 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/test-kotlin/</guid>
       <description>&lt;p&gt;테스트 글입니다. Kotlin 카테고리에 속해 있습니다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Resume</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>&lt;h2 style=&#34;font-size: 26px; font-weight: 700; margin-top: 0;&#34;&gt;
-“사용자의 더 나은 경험을 고민하며, 기술로 풀어내는 Android 개발자 &lt;span style=&#39;color:#3b82f6&#39;&gt;엄준석&lt;/span&gt;입니다.”
-&lt;/h2&gt;
-&lt;table style=&#34;width: 100%;&#34;&gt;
-  &lt;tr&gt;
-    &lt;td style=&#34;vertical-align: top; padding-right: 45px;&#34;&gt;
-      &lt;img src=&#34;http://localhost:1313/profile_35x45.jpg&#34; alt=&#34;Profile Photo&#34; width=&#34;140&#34; height=&#34;180&#34; style=&#34;border-radius: 8px;&#34; /&gt;
-    &lt;/td&gt;
-    &lt;td style=&#34;vertical-align: top; padding-top: 20px;&#34;&gt;
-      &lt;strong&gt;Contact.&lt;/strong&gt;&lt;br&gt;
-      Email. ukerrym@gmail.com&lt;br&gt;
-      Phone. 010-9861-0905&lt;br&gt;&lt;br&gt;
-      &lt;strong&gt;Channel.&lt;/strong&gt;&lt;br&gt;
-      Blog. &lt;a href=&#34;https://dax-um.github.io&#34;&gt;https://dax-um.github.io&lt;/a&gt;&lt;br&gt;
-      GitHub. &lt;a href=&#34;https://github.com/Dax-Um&#34;&gt;https://github.com/Dax-Um&lt;/a&gt;&lt;br&gt;
-    &lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;p&gt;&lt;strong&gt;Android 개발자 | Compose · Coroutine · Hilt · Multi-Module 차량 앱 및 AI 사이드 프로젝트 경험&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;
-Multi-Module 구조의 차량용 Android 앱 개발에 참여해 실제 양산 적용을 경험했으며,&lt;br&gt;
-Google Android Auto 인증을 위한 In-Vehicle 실차 테스트를 수행하며 실환경 연결성과 UX를 검증했습니다.&lt;br&gt;
-감정 다이어리 분석과 AI 페르소나 대화를 제공하는 심리 케어 앱을 사이드 프로젝트로 개발하고 있습니다.&lt;br&gt;
-기술의 완성도를 추구하되, 그것이 사용자 문제 해결로 이어져야 의미 있다고 믿습니다.&lt;br&gt;
-&lt;strong&gt;‘잘 만든 기능’보다 ‘쓰이는 기능’을 만들기 위해, 늘 사용자 관점에서 기능의 본질을 고민합니다.&lt;/strong&gt;
-&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

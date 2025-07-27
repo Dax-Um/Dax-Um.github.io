@@ -2,7 +2,7 @@
 title: "Activity"
 date: 2025-06-09
 draft: false
-categories: ["android"]
+categories: ["Android"]
 tags: ["android component"]
 thumbnail: "/images/android.png"
 thumbnail_alt: "Android icon"  

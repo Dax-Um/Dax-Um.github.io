@@ -1,5 +1,5 @@
 ---
-title: "Dax의 조용한 개발 서랍"
-description: "소란스럽지 않게, 차곡차곡 쌓아가는 개발 기록들."
+title: "Dax의 개발 서랍"
+description: "공부하면서 겪었던 문제들을 차곡차곡 모아 기록하고 꺼내보는 곳"
 layout: "home"
 ---

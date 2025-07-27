@@ -1,10 +1,10 @@
 baseURL = "https://Dax-Um.github.io/"
 languageCode = "ko-kr"
-title = "Dax의 조용한 개발 서랍"
+title = "Dax의 개발 서랍"
 theme = "PaperMod"
 
 [params]
-  description = "소란스럽지 않게, 차곡차곡 쌓아가는 개발 기록들."
+  description = "소개글"
   ShowPostCards = true 
   ShowPageThumbnail = true
   ShowReadingTime = true
@@ -12,7 +12,7 @@ theme = "PaperMod"
   ShowCodeCopyButtons = true
   defaultTheme = "auto"
   [params.homeInfoParams]
-    content = "소란스럽지 않게, 차곡차곡 쌓아가는 개발 기록들."
+    content = "하루 하루 성장하고 싶은 안드로이드 개발자의 공부하며 겪었던 문제들을 차곡 차곡 모아 기록하고 꺼내보는 곳"
 
 [markup]
   [markup.highlight]
@@ -23,39 +23,34 @@ theme = "PaperMod"
       unsafe = true
 
 [[menu.main]]
-  name = "Resume"
-  url = "/about"
+  name = "Algorithm"
+  url = "/categories/Algorithm"
   weight = 1
 
 [[menu.main]]
   name = "Android"
-  url = "/categories/android"
+  url = "/categories/Android"
   weight = 2
 
 [[menu.main]]
   name = "Jetpack Compose"
-  url = "/categories/jetpack-compose"
+  url = "/categories/Jetpack Compose"
   weight = 3
 
 [[menu.main]]
-  name = "Kotlin"
-  url = "/categories/kotlin"
+  name = "Java vs Kotlin"
+  url = "/categories/Java vs Kotlin"
   weight = 4
 
 [[menu.main]]
-  name = "Java"
-  url = "/categories/java"
+  name = "TDD & Architecture"
+  url = "/categories/TDD & Architecture"
   weight = 5
 
 [[menu.main]]
-  name = "TDD"
-  url = "/categories/tdd"
+  name = "Side Project"
+  url = "/categories/Side Project"
   weight = 6
-
-[[menu.main]]
-  name = "Architecture"
-  url = "/categories/architecture"
-  weight = 7
 
 [params.assets]
 customCSS = ["css/extended/custom.css"]

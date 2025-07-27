@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Dax의 조용한 개발 서랍</title><link>https://Dax-Um.github.io/</link><description>Recent content on Dax의 조용한 개발 서랍</description><generator>Hugo -- 0.147.7</generator><language>ko-kr</language><lastBuildDate>Mon, 09 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://Dax-Um.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Activity</title><link>https://Dax-Um.github.io/posts/activity/</link><pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate><guid>https://Dax-Um.github.io/posts/activity/</guid><description>&lt;h1 id="-android-activity-완벽-가이드-2025년-기준">🖥️ Android Activity 완벽 가이드 (2025년 기준)&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Dax의 개발 서랍</title><link>https://Dax-Um.github.io/</link><description>Recent content on Dax의 개발 서랍</description><generator>Hugo -- 0.147.7</generator><language>ko-kr</language><lastBuildDate>Sun, 27 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://Dax-Um.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>IntelliJ 알고리즘 문제 풀이 환경 세팅</title><link>https://Dax-Um.github.io/posts/autocp_setting/</link><pubDate>Sun, 27 Jul 2025 00:00:00 +0000</pubDate><guid>https://Dax-Um.github.io/posts/autocp_setting/</guid><description>&lt;h3 id="autocp">AutoCP&lt;/h3>
+&lt;p>알고리즘 문제 풀이를 할 때 해당 사이트에서 테스트 케이스 결과를 확인하기에는 불편한 부분이 있다.
+이런 문제를 해결할 수 있는 방법으로 Jetbrain사의 IDE에서 사용할 수 있는 플러그인으로 Auto CP가 있다.
+Auto CP는 백준(BOJ), Codeforces, AtCoder 등 경쟁 프로그래밍 문제를 더 빠르고 효율적으로 풀 수 있게 도와주는 플러그인이다.&lt;/p>
+&lt;img src="https://Dax-Um.github.io/images/autocp/autocp.png" alt="auto cp" width="250" />
+&lt;a href="https://pushpavel.github.io/AutoCp/" target="_blank" rel="noopener noreferrer" style="color: #1e90ff;">[AutoCP 바로 가기]
+&lt;/a>&lt;br>&lt;br>
+&lt;h3 id="환경-설정-on-intellij">환경 설정 (on IntelliJ)&lt;/h3>
+&lt;p>현재 Java로 문제풀이를 하는 관계로 IntelliJ에서 세팅하는 법을 기록한다.
+IntelliJ 설치 및 환경 설정은 되어 있다는 전제로 한다.&lt;/p></description></item><item><title>Activity</title><link>https://Dax-Um.github.io/posts/activity/</link><pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate><guid>https://Dax-Um.github.io/posts/activity/</guid><description>&lt;h1 id="-android-activity-완벽-가이드-2025년-기준">🖥️ Android Activity 완벽 가이드 (2025년 기준)&lt;/h1>
 &lt;p>Android 앱의 핵심 구성 요소인 &lt;strong>Activity&lt;/strong>는 사용자와 직접 상호작용하는 단일 UI 화면을 나타냅니다. Activity는 앱이 사용자에게 보여주는 &lt;strong>각각의 화면&lt;/strong>을 담당하며, 생명주기를 통해 시스템 이벤트에 반응하고 사용자 경험을 관리합니다.&lt;/p>
 &lt;hr>
 &lt;h2 id="-activity란">📌 Activity란?&lt;/h2>
@@ -28,29 +37,4 @@
 &lt;hr>
 &lt;h2 id="-1-activity">🖥️ 1. Activity&lt;/h2>
 &lt;h3 id="-정의">✅ 정의&lt;/h3>
-&lt;p>Activity는 사용자와 직접 상호작용하는 단일 UI 화면입니다. 사용자의 행동에 따라 앱의 상태를 전환하며, 생명주기(Lifecycle)를 통해 시스템 이벤트에 반응합니다.&lt;/p></description></item><item><title>테스트용 카테고리 - Kotlin</title><link>https://Dax-Um.github.io/posts/test-kotlin/</link><pubDate>Wed, 04 Jun 2025 00:00:00 +0000</pubDate><guid>https://Dax-Um.github.io/posts/test-kotlin/</guid><description>&lt;p>테스트 글입니다. Kotlin 카테고리에 속해 있습니다.&lt;/p></description></item><item><title>Resume</title><link>https://Dax-Um.github.io/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://Dax-Um.github.io/about/</guid><description>&lt;h2 style="font-size: 26px; font-weight: 700; margin-top: 0;">
-“사용자의 더 나은 경험을 고민하며, 기술로 풀어내는 Android 개발자 &lt;span style='color:#3b82f6'>엄준석&lt;/span>입니다.”
-&lt;/h2>
-&lt;table style="width: 100%;">
-&lt;tr class="resume-profile-content">
-&lt;td style="vertical-align: top; padding-right: 45px;" class="resume-profile-image-container">
-&lt;img src="https://Dax-Um.github.io/profile_35x45.jpg" alt="Profile Photo" width="140" height="180" style="border-radius: 8px;" class="resume-profile-image" />
-&lt;/td>
-&lt;td style="vertical-align: top; padding-top: 20px;">
-&lt;strong>Contact.&lt;/strong>&lt;br>
-Email. ukerrym@gmail.com&lt;br>
-Phone. 010-9861-0905&lt;br>&lt;br>
-&lt;strong>Channel.&lt;/strong>&lt;br>
-Blog. &lt;a href="https://dax-um.github.io">https://dax-um.github.io&lt;/a>&lt;br>
-GitHub. &lt;a href="https://github.com/Dax-Um">https://github.com/Dax-Um&lt;/a>&lt;br>
-&lt;/td>
-&lt;/tr>
-&lt;/table>
-&lt;p>&lt;strong>Android 개발자 | Compose · Coroutine · Hilt · Multi-Module 차량 앱 및 AI 사이드 프로젝트 경험&lt;/strong>&lt;/p>
-&lt;p>
-Multi-Module 구조의 차량용 Android 앱 개발에 참여해 실제 양산 적용을 경험했으며,&lt;br>
-Google Android Auto 인증을 위한 In-Vehicle 실차 테스트를 수행하며 실환경 연결성과 UX를 검증했습니다.&lt;br>
-감정 다이어리 분석과 AI 페르소나 대화를 제공하는 심리 케어 앱을 사이드 프로젝트로 개발하고 있습니다.&lt;br>
-기술의 완성도를 추구하되, 그것이 사용자 문제 해결로 이어져야 의미 있다고 믿습니다.&lt;br>
-&lt;strong>‘잘 만든 기능’보다 ‘쓰이는 기능’을 만들기 위해, 늘 사용자 관점에서 기능의 본질을 고민합니다.&lt;/strong>
-&lt;/p></description></item></channel></rss>
+&lt;p>Activity는 사용자와 직접 상호작용하는 단일 UI 화면입니다. 사용자의 행동에 따라 앱의 상태를 전환하며, 생명주기(Lifecycle)를 통해 시스템 이벤트에 반응합니다.&lt;/p></description></item><item><title>테스트용 카테고리 - Kotlin</title><link>https://Dax-Um.github.io/posts/test-kotlin/</link><pubDate>Wed, 04 Jun 2025 00:00:00 +0000</pubDate><guid>https://Dax-Um.github.io/posts/test-kotlin/</guid><description>&lt;p>테스트 글입니다. Kotlin 카테고리에 속해 있습니다.&lt;/p></description></item></channel></rss>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Settings on Dax의 개발 서랍</title><link>https://Dax-Um.github.io/tags/settings/</link><description>Recent content in Settings on Dax의 개발 서랍</description><generator>Hugo -- 0.147.7</generator><language>ko-kr</language><lastBuildDate>Sun, 27 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://Dax-Um.github.io/tags/settings/index.xml" rel="self" type="application/rss+xml"/><item><title>IntelliJ 알고리즘 문제 풀이 환경 세팅</title><link>https://Dax-Um.github.io/posts/autocp_setting/</link><pubDate>Sun, 27 Jul 2025 00:00:00 +0000</pubDate><guid>https://Dax-Um.github.io/posts/autocp_setting/</guid><description>&lt;h3 id="autocp">AutoCP&lt;/h3>
+&lt;p>알고리즘 문제 풀이를 할 때 해당 사이트에서 테스트 케이스 결과를 확인하기에는 불편한 부분이 있다.
+이런 문제를 해결할 수 있는 방법으로 Jetbrain사의 IDE에서 사용할 수 있는 플러그인으로 Auto CP가 있다.
+Auto CP는 백준(BOJ), Codeforces, AtCoder 등 경쟁 프로그래밍 문제를 더 빠르고 효율적으로 풀 수 있게 도와주는 플러그인이다.&lt;/p>
+&lt;img src="https://Dax-Um.github.io/images/autocp/autocp.png" alt="auto cp" width="250" />
+&lt;a href="https://pushpavel.github.io/AutoCp/" target="_blank" rel="noopener noreferrer" style="color: #1e90ff;">[AutoCP 바로 가기]
+&lt;/a>&lt;br>&lt;br>
+&lt;h3 id="환경-설정-on-intellij">환경 설정 (on IntelliJ)&lt;/h3>
+&lt;p>현재 Java로 문제풀이를 하는 관계로 IntelliJ에서 세팅하는 법을 기록한다.
+IntelliJ 설치 및 환경 설정은 되어 있다는 전제로 한다.&lt;/p></description></item></channel></rss>
